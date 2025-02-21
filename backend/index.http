@@ -1,0 +1,24 @@
+###
+
+GET http://localhost:3001/seedData/
+
+###
+
+GET http://localhost:3001/allTransactions/
+
+###
+
+GET http://localhost:3001/statistics?month=March
+
+
+###
+GET http://localhost:3001/priceRangeData?month=March
+
+###
+
+GET http://localhost:3001/categoryCount?month=March
+
+
+###
+
+GET http://localhost:3001/allStatistics?month=March
