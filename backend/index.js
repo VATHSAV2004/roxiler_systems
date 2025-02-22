@@ -11,7 +11,7 @@ let db=null;
 
 const initDb=async ()=>{
     try{
-        db=await open({driver:sqlite3.Database,filename:"../database/database.db"});
+        db=await open({driver:sqlite3.Database,filename:"sqlitecloud://cbxaamq5hk.g4.sqlite.cloud:8860/database.db?apikey=FhMbbM0Ivjm9zMlD9IKdk0BX97UaJ6oAPaemSQnDJXI"});
         await db.run('CREATE TABLE IF NOT EXISTS product_transaction(id INTEGER,title TEXT,price REAL,description TEXT,category TEXT,image TEXT,sold BOOLEAN,month TEXT);')
     }
     catch (e){
